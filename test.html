@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+	<script type="text/javascript" src="//code.jquery.com/jquery-git.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    
+  
+
+  <style type="text/css">
+    .popover-text {
+  display: none;
+}
+
+#spacing {
+  position: absolute;
+  top: 180px;
+  left:10px;
+}
+
+#testPopover {
+  width:50%;
+}
+  </style>
+
+  <title> by sregorcinimod</title>
+
+  
+    
+
+
+
+
+<script type='text/javascript'>//<![CDATA[
+$(window).on('load', function() {
+$(function() {
+  $('[data-toggle="popover"]').popover()
+})
+
+$('#testPopover').popover({ 
+		container: "body",
+    trigger: "focus",
+    html : true,
+		title : 'SUCCESS <a href="#" class="close"  aria-label="Close" data-dismiss="popover" id="pop_close">×</a>',
+
+    content: function() {
+
+      return $("#popText").html();
+
+    }
+
+  }); 
+});//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+
+<div class="popover-text" id="popText">
+
+  <div>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've
+    known way back when... You know why, David? Because of the kids. They called me Mr Glass. Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you,
+    I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.
+
+  </div>
+</div>
+<div id="spacing">
+<a id="testPopover" tabindex="0" class="popover_wrapper" data-toggle="popover" >
+<svg width="310" height="110">
+   <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg> 
+</a>
+</div>
+</body>
+
+</html>
+

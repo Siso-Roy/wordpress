@@ -1,0 +1,133 @@
+/*
+Theme Name: Siso
+*/
+
+.navholder {
+	display:inline;
+}
+
+.footerInfo {
+	display:inline;
+}
+
+.mobile-work {
+	display:none;
+}
+
+.mobWorkHolder {
+		position: absolute;
+  top:55%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+   	width: 75%;
+	height: 70%;
+}
+
+#workTitle {
+	position:absolute;
+	left: 12.5%;
+	top: 10.5%;
+}
+
+.mob_logo {
+	position:absolute;
+	top:2%;
+	width:75%;
+	height: 20%;
+	left: 50%;
+   	transform: translateX(-50%);
+}
+
+.mob_svg {
+	position:absolute;
+	top:2%;
+	width:100%;
+	height: 100%;
+	left: 50%;
+   	transform: translateX(-50%);
+	
+}
+
+.carousel-item {
+	height:100%;
+}
+
+.carousel {
+	position:absolute;
+	height:100%;
+}
+
+.mob_workText {
+	margin-top:calc((100vh * 0.7) * 0.2);
+	width:100%;
+}
+
+.mob_workText h4 {
+	font-family: 'Pathway Gothic One', sans-serif;
+    font-size:24px;
+    text-align: center;
+    margin-top:5px;
+    
+}
+
+.mob_workText p {
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size:18px;
+    text-align: left;
+    margin:10px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	height:75%;
+}
+
+.carousel-control-prev {
+	left:-15%;
+}
+
+.carousel-control-next {
+	right:-15%;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23EF4939' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23EF4939' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+
+
+@media (min-width: 768px) and (max-width: 900px) and (max-height: 500px) {
+
+.mob_workText p{
+    font-size:16px;
+}	
+
+}
+
+@media (max-width: 767px) {
+
+.mobile-work {
+	display:inline;
+}
+
+#svg-holder {
+	display:none;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.mob_workText p {    
+    font-size:13px;
+}
+
+h3 {
+    font-size: 13px !important;
+}
+}
+
+

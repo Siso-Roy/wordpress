@@ -1,0 +1,443 @@
+/*
+Theme Name: Siso
+*/
+
+/*
+navbar
+*/
+
+.navholder {
+	display:inline;
+}
+
+.footerInfo {
+	display:inline;
+}
+
+.animated-serv {
+  position:absolute;
+  top:calc(50% + 10px);
+  left: 50%;
+   	transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
+  z-index:99;
+}
+
+#serv1 {
+  position:absolute;
+  right:0px;
+  top:0px;
+  z-index:28;
+}
+
+#serv2 {
+  position:absolute;
+  right:0px;
+  bottom:0px;
+  z-index:27;
+}
+
+#serv3 {
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  z-index:26;
+}
+
+#serv4 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:25;
+}
+
+.servHolder svg:hover {
+	cursor:pointer;
+	outline: none !important;
+}
+
+.servHolder svg:focus {
+	cursor:pointer;
+	outline: none !important;
+}
+
+.servHolder {
+    width:300px;
+  height:300px;
+  outline: none !important;
+  }
+
+#serv1:hover svg polygon, #serv1:hover text{
+  fill: #EF4939;
+}
+
+#serv1:hover svg polyline, #serv1:hover path, #serv1:hover line, #serv1:hover circle{
+  stroke: #EF4939;
+}
+
+#serv2:hover svg polygon, #serv2:hover text{
+  fill: #EF4939;
+}
+
+#serv2:hover svg polyline, #serv2:hover path, #serv2:hover line, #serv2:hover circle{
+  stroke: #EF4939;
+}
+
+#serv3:hover svg polygon, #serv3:hover text{
+  fill: #EF4939;
+}
+
+#serv3:hover svg polyline, #serv3:hover path, #serv3:hover line, #serv3:hover circle{
+  stroke: #EF4939;
+}
+
+#serv4:hover svg polygon, #serv4:hover text{
+  fill: #EF4939;
+}
+
+#serv4:hover svg polyline, #serv4:hover path, #serv4:hover line, #serv4:hover circle{
+  stroke: #EF4939;
+}
+
+.contentArc {
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+#contArc1 {
+  z-index:23;
+}
+
+#contArc2 {
+  z-index:22;
+}
+
+#contArc3 {
+  z-index:21;
+}
+
+#contArc4 {
+  z-index:20;
+}
+
+#design_svg {
+	max-width:82%;
+	position: absolute;
+	left:0px;
+	bottom:0px;
+}
+
+#dev_svg {
+	max-width:82%;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+#cons_svg {
+	max-width:82%;
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+
+#strat_svg {
+	max-width:82%;
+	position: absolute;
+	right:0px;
+	bottom:0px;
+}
+
+.servDesc {
+	position:absolute;
+  top:50%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+  width: 550px;
+  height: 550px;
+  z-index:27;
+  display:none;
+}
+
+.servDesc svg {
+	position:absolute;
+  top:50%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+   	max-width:92%;
+	max-height:92%;
+}
+
+#close_1 {
+	position: absolute;
+	top:280px;
+	right:30px;
+	width: 30px;
+  	height: 30px;
+}
+
+#close_2 {
+	position: absolute;
+	top:490px;
+	right:280px;
+	width: 30px;
+  	height: 30px;
+}
+
+#close_3 {
+	position: absolute;
+	top:490px;
+	left:280px;
+	width: 30px;
+  	height: 30px;
+}
+
+#close_4 {
+	position: absolute;
+	top:280px;
+	left:30px;
+	width: 30px;
+  	height: 30px;
+}
+
+.closeLink {
+  position: absolute;
+  top:50%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  cursor:pointer;
+  z-index:999;
+}
+
+.closeLink:hover {
+  opacity: 1;
+}
+
+.closeLink:before, .closeLink:after {
+  position: absolute;
+  left: 9px;
+  content: ' ';
+  height: 21px;
+  width: 2px;
+  background-color: #FFF;
+}
+
+.closeLink:before {
+  transform: rotate(45deg);
+}
+
+.closeLink:after {
+  transform: rotate(-45deg);
+}
+
+.mobile-serv {
+	display:none;
+}
+
+.mobServHolder {
+	position: absolute;
+  top:55%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+   	width: 75%;
+	height: 70%;
+}
+
+.mobServCont {
+	position: absolute;
+  top:55%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+   	width: 75%;
+	height: 70%;
+	-webkit-transition:all 1.0s;
+    -moz-transition:all 1.0s;
+    -o-transition:all 1.0s;
+    -ms-transition:all 1.0s;    
+    transition:all 1.0s;
+    background-color:#EF4939;
+}
+
+.hideCont {
+	left: 150% !important;
+}
+
+.mobServText h4 {
+	color: #FFFFFF;
+	font-family: 'Pathway Gothic One', sans-serif;
+    font-size:24px;
+    text-align: center;
+    margin-top:5px;
+    
+}
+
+.mobServText p {
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size:18px;
+    text-align: left;
+    margin:10px;
+}
+
+.mobServ {
+	position: absolute;
+	width:50%;
+	height:50%;
+	border-left: 2px solid #000000;
+	border-top: 2px solid #000000;
+}
+
+#mobServ1 {
+	top:0px;
+	left:0px;
+}
+
+#mobServ2 {
+	top:0px;
+	right:0px;
+	border-right: 2px solid #000000;
+}
+
+#mobServ3 {
+	bottom:0px;
+	right:0px;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+
+#mobServ4 {
+	bottom:0px;
+	left:0px;
+	border-bottom: 2px solid #000000;
+}
+
+.mobServ svg {
+	position: absolute;
+  	top:35%;
+  	left: 50%;
+   	transform: translate(-50%, -50%);
+	max-width:80%;
+	height:auto;
+	cursor:pointer;
+}
+
+.mobServ p {
+	position:absolute;
+	left: 50%;
+   	transform: translateX(-50%);
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+    font-size:16px;
+    line-height:18px;
+    bottom: 2%;
+    width:90%;
+}
+
+#servTitle {
+	position:absolute;
+	left: 12.5%;
+	top: 10.5%;
+}
+
+#close_serv1, #close_serv2, #close_serv3, #close_serv4 {
+	position: absolute;
+	top:3px;
+	right:3px;
+	width: 30px;
+  	height: 30px;
+}
+
+.closeLink {
+  position: absolute;
+  top:50%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  cursor:pointer;
+}
+
+.closeLink:hover {
+  opacity: 1;
+}
+
+.closeLink:before, .closeLink:after {
+  position: absolute;
+  left: 9px;
+  content: ' ';
+  height: 21px;
+  width: 2px;
+  background-color: #FFF;
+}
+
+.closeLink:before {
+  transform: rotate(45deg);
+}
+
+.closeLink:after {
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 768px) and (max-height: 550px){
+	
+#expand-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, .animated-serv {    
+    display:none !important;
+}
+
+}
+
+@media (max-width: 767px) and (orientation: landscape) and (min-aspect-ratio: 4/3){
+	
+#rotate-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, #intro {    
+    display:none !important;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 900px) and (max-height: 500px) {
+
+.mobServText p{
+    font-size:16px;
+}	
+
+}
+
+@media (max-width: 767px) {
+
+.mobile-serv {
+	display:inline;
+}
+
+.animated-serv {
+	display:none;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.mobServText p {    
+    font-size:13px;
+}
+
+h3 {
+    font-size: 13px !important;
+}
+}
+
+

@@ -1,0 +1,135 @@
+/*
+Theme Name: Siso
+*/
+
+/*
+navbar
+*/
+
+.navholder {
+	display:inline;
+}
+
+.footerInfo {
+	display:inline;
+}
+
+#contactText {
+	position:absolute;
+  top:50%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+   	width:100%;
+
+}
+
+#maincontactOld {
+	width:75%;
+	margin:auto;
+	margin-top: 16px;
+	max-height:80%;
+	overflow:hidden;
+	padding-top:20px;
+}
+
+#maincontact {
+position: absolute;
+  top:55%;
+  left: 50%;
+   	transform: translate(-50%, -50%);
+   	width: 80%;
+	height: 80%;
+}
+
+#contdetails {
+	margin-bottom: 10px;
+}
+
+.contact_svg {
+	max-width:50px;
+	max-height:50px;
+	margin-right:10px;
+}
+
+#contact_social {
+	margin-top:10px;
+	margin-bottom:10px;s
+}
+
+#contact_facebook, #contact_twitter, #contact_linkedin {
+	display: inline;
+}
+
+#contact_facebook:hover #facebook_svg path{
+	stroke:#EF4939;	
+}
+
+#contact_twitter:hover #twitter_svg path{
+	stroke:#EF4939;	
+}
+
+#contact_linkedin:hover #linkedin_svg path{
+	stroke:#EF4939;	
+}
+
+#contact_address p, #contact_email a {    
+    font-size:13px;
+}
+
+.wolf-bigtweet-content {
+	font-size:13px;
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) and (max-height: 500px) {
+
+.maincontact p{
+    font-size:16px;
+}	
+
+}
+
+@media (min-width: 768px) and (max-height: 470px){
+	
+#expand-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, #intro {    
+    display:none !important;
+}
+
+}
+@media (max-width: 767px) and (orientation: landscape) and (min-aspect-ratio: 4/3){
+	
+#rotate-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, #intro {    
+    display:none !important;
+}
+
+}
+
+@media (max-width: 574px) {
+
+#socialmedia {
+	display:none;
+}
+	
+}
+
+@media (max-width: 480px) {
+
+#contact_address p {    
+    font-size:13px;
+}
+
+h3 {
+    font-size: 13px !important;
+}
+
+}
+
+

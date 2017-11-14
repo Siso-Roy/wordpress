@@ -1,0 +1,267 @@
+/*
+Theme Name: Siso
+*/
+
+#all_posts, #content {
+
+}
+
+#all_posts, #content {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:inline;
+	padding-top:45px;
+}
+
+#news_holder {
+	width:85%;
+	padding-right:10px;
+	margin:auto;
+}
+
+#article {
+	width:100%;
+	margin:auto;
+	padding-top:25px;
+}
+
+#post_title {
+	padding-top:10px;
+	padding-left: 13px;
+}
+
+#post_title p{
+	color: #000000;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size:14px;
+    text-align: left;
+}
+
+#post_details {
+	margin-left:-15px;
+	display: inline-block;
+}
+
+
+.post_nav {
+  display: inline; 
+  width: 100%;
+  margin-top:45px;
+}
+
+.rightnav {
+  float: right;
+  text-align:right;
+  padding-right:30px;
+  
+}
+
+.leftnav {
+  float: left;
+  padding-left:30px;
+}
+
+.rightnav, .leftnav {
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.rightnav h6, .leftnav h6{
+	font-size:16px;
+	margin-bottom:2px;
+}
+
+.rightnav h7, .leftnav h7{
+	font-size:18px;
+}
+
+#rightnav  a, #rightnav  a:hover, #leftnav  a, #leftnav  a:hover {
+	text-decoration:none;
+	color:#000;
+}
+
+.title_link > a{
+	color:#EF4939;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:21px;
+	padding-top:10px;
+}
+
+.title_link {
+	line-height: 18px;
+	margin-bottom:6px;
+}
+
+.news_date {
+	color: #000000;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size:11px;
+    text-align: left;
+    line-height: 18px;
+    padding-left:1px;
+    margin-bottom:6px;
+}
+
+.ap_cont p, #post_text p  {
+	color: #000000;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size:16px;
+    text-align: left;
+    padding-left:13px;
+}
+
+.ap_cont p > a{
+	color:#EF4939;
+}
+
+#rightdetails {
+	padding-left:11px;
+	padding-top:20px;
+}
+
+.nav-next, .nav-next > a, .nav-previous, .nav-previous > a {
+	color:#EF4939 !important;
+}
+
+.navholder {
+	display:inline;
+}
+
+.footerInfo {
+	display:inline;
+}
+
+#pag_holder {
+	position: absolute;
+	bottom:30px;
+	left:60px;
+	z-index:9999 !important;
+}
+
+.navrechts a{
+	color:#EF4939 !important;
+}
+
+hr {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.mob_ap {
+	display:none !important;
+}
+
+@media (min-width: 768px) and (max-width: 972px) and (max-height: 594px) {
+
+#expand-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, #pag_holder {    
+    display:none !important;
+}
+
+}
+
+@media (min-width: 973px) and (max-width: 990px) and (max-height: 572px) {
+
+#expand-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, #pag_holder {    
+    display:none !important;
+}
+
+}
+
+@media (min-width: 991px) and (max-height: 526px) {
+
+#expand-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, #pag_holder {    
+    display:none !important;
+}
+
+}
+
+@media (max-width: 767px) {
+
+#post_details {
+	padding-left:30px;
+}
+
+#post_details {
+	padding-right:40px;
+}
+
+.title_link > a{
+	font-size:16px;
+	padding-top:10px;
+}
+
+.title_link {
+	line-height: 16px;
+	margin-bottom:4px;
+}
+
+#rightdetails {
+	padding-top:6px;
+}
+
+.ap_cont p {    
+    margin-bottom:12px;
+}
+
+#pag_holder {
+	bottom:0px;
+	left:30px;
+	font-size:14px;
+}
+
+.nav-previous > a, .nav-next > a {
+	font-size:14px;
+}
+
+}
+
+@media (max-height: 600px) {
+
+.desk_ap {
+	display:none !important;
+}
+
+.mob_ap {
+	display:block !important;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.ap_cont p, #post_text p {    
+    font-size:13px;
+}
+
+h3 {
+    font-size: 13px !important;
+}
+
+
+}
+
+@media (max-width: 767px) and (orientation: landscape) and (min-aspect-ratio: 4/3){
+	
+#rotate-view {    
+    display:block !important;
+}
+
+.footerInfo, #header, #pag_holder {    
+    display:none !important;
+}
+
+}
+
+
