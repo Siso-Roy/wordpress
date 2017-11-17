@@ -399,6 +399,11 @@ function contactUs_frontend($atts){
 						<h2>ADDRESS</h2>
 						<?php echo $content ?>
 					</div>
+					<!-- phone number -->
+					<div id="contact_phone">
+						<h2>PHONE NUMBER</h2>
+						<?php echo $phone ?>
+					</div>
 					<div id="contact_email">
 						<h2>EMAIL</h2>
 						<script language="JavaScript">
