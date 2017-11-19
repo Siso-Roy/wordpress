@@ -402,7 +402,7 @@ function contactUs_frontend($atts){
 					<!-- phone number -->
 					<div id="contact_phone">
 						<h2>PHONE NUMBER</h2>
-						<?php echo $phone ?>
+						<p><?php echo $phone ?></p>
 					</div>
 					<div id="contact_email">
 						<h2>EMAIL</h2>

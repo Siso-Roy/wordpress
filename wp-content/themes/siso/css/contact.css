@@ -80,6 +80,9 @@ position: absolute;
 	font-size:13px;
 }
 
+#contact_phone {
+	font-size: 13px;
+}
 
 @media (min-width: 768px) and (max-width: 900px) and (max-height: 500px) {
 
