@@ -3,15 +3,15 @@ Theme Name: Siso
 */
 
 #all_posts, #content {
-
+	width: 100%;
 }
 
 #all_posts, #content {
 	position:absolute;
-	top:0px;
+	top: 10.5%;
 	left:0px;
 	display:inline;
-	padding-top:45px;
+	/*padding-top:45px;*/
 }
 
 #news_holder {
@@ -23,11 +23,11 @@ Theme Name: Siso
 #article {
 	width:100%;
 	margin:auto;
-	padding-top:25px;
+	padding-top:15px;
 }
 
 #post_title {
-	padding-top:10px;
+	/*padding-top:10px;*/
 	padding-left: 13px;
 }
 
@@ -41,13 +41,14 @@ Theme Name: Siso
 #post_details {
 	margin-left:-15px;
 	display: inline-block;
+	margin: auto;
 }
 
 
 .post_nav {
 	display: inline;
 	width: 100%;
-	margin-top:45px;
+	/*margin-top:45px;*/
 }
 
 .rightnav {
@@ -156,7 +157,7 @@ hr {
 	float: left;
 }
 #post_details {
-	padding: 30px;
+	padding-left: 30px;
 }
 
 @media (min-width: 768px) and (max-width: 972px) and (max-height: 594px) {
