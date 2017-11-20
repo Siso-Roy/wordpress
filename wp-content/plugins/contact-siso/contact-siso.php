@@ -428,6 +428,7 @@ function contactUs_frontend($atts){
 	V39.999h11.291l1.107-12.396H54.198v-5.164c0-2.96,0.594-4.135,3.457-4.135h8.941V2.808H54.792c-11.141,0-16.09,4.909-16.09,14.304
 	V27.603z"/>
 </svg>
+								<span class="screen-reader-text"> Facebook link </span>
 							</a>
 						</div>
 						<?php
@@ -448,6 +449,7 @@ function contactUs_frontend($atts){
 	c2.293,7.154,8.939,12.358,16.826,12.506c-7.568,5.937-17.113,8.586-26.664,7.46c7.973,5.111,17.438,8.091,27.607,8.091
 	c33.436,0,52.33-28.239,51.186-53.569C86.922,19.559,89.975,16.388,92.391,12.776z"/>
 </svg>
+								<span class="screen-reader-text"> Twitter link </span>
 							</a>
 						</div>
 						<?php
@@ -466,6 +468,7 @@ function contactUs_frontend($atts){
 	v50.769h15.865V25.721z M51.117,25.721H35.352v50.769h15.766V49.841c0-14.817,19.131-16.032,19.131,0v26.648h15.828V44.344
 	c0-25.003-28.31-24.095-34.959-11.784V25.721z"/>
 </svg>
+								<span class="screen-reader-text"> Linkedin link </span>
 							</a>
 						</div>
 						<?php
